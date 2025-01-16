@@ -53,6 +53,9 @@ NOTE* I do have a Matlab program that can create an animated graph of the path t
 - Need to download Matplotlib, Plotly, Pandas, datashader, sqlite3 or
   - use the Anaconda Python Interpreter 
 
+# Known Bugs 
+- ```Biome.py``` class not working 
+
 # How To Contribute 
 - Create a fork
 - Add your code
