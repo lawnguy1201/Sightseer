@@ -13,6 +13,9 @@ Sightseer was made over the course of 1 1/2 months, with multiple iterations. I 
 
 We ran into many problems and challenges throughout the development of the program, one of which was making the graphs as optimized as possible. The main issue we ran into was the ```Biomes.py``` class not working properly. We were using ```sqlite``` to handle the 300Gb CSV file of all biome info. However, we ran into limitations of Plotly at that point with how we were creating graphs with millions of data points that needed to be shown.  
 
+**You will need basic coding knowledge to use this program**
+
+
 ![Screenshot_2025-01-13_191819](https://github.com/user-attachments/assets/05a5f454-4315-49e8-92e1-85f44812e4ad)
 
 
@@ -36,6 +39,19 @@ We ran into many problems and challenges throughout the development of the progr
   - Create 3d, 2d, heatmap, mesh Graph of all the signs together **(Interactive)**
 
 NOTE* I do have a Matlab program that can create an animated graph of the path that was taken to download the world from time chunk data 
+
+# How to Use 
+- Make sure you have all dependencies
+- Add your csv files into your directory
+- Change the the path in  ```main```
+- Comment in the data you would like to use i.e. banner data, signs data (Change the file name to what ever the csv name is)
+- Go through the classes and change the name of the graphs or any small details you would like to change 
+
+# dependencies
+- Python 3.10.0
+- Any ide of your choice (made in pycharm)
+- Need to download Matplotlib, Plotly, Pandas, datashader, sqlite3 or
+  - use the Anaconda Python Interpreter 
 
 # How To Contribute 
 - Create a fork
